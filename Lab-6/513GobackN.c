@@ -19,7 +19,7 @@ void main()
     }
     while(ack<frameSize)
     {
-        SeqMax = frameSize;
+        seqMax = frameSize;
         flg = 0;
         for( seqNext = ack + 1 ; (seqNext <= seqMax) && (seqNext <= frameSize) ; seqNext++)
         {
